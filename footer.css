@@ -1,0 +1,100 @@
+.main-footer{
+    background-color: rgb(4, 9, 30);
+    padding: 100px 40px 100px 5px;
+    margin-top: 0px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.footer-container-title{
+    color: white;
+    font-size: 20px;
+    padding-left: 13%;
+}
+.footer-container-note{
+    color: #777;
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 10%;
+}
+
+ul{
+    list-style-type: none;
+    color: #777;
+    font-size: 14px;
+    line-height: 30px;
+} 
+
+input{
+    margin-left: 10%;
+    height: 35px;
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    border: none;
+    color: #777;
+    background-color: white;
+}
+.footer-button{
+    height: 37px;
+    width: 60px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 0px;
+    background-color: #f7631b;
+}
+.footer-button img{
+    height: 25px;
+}
+
+.footer-search{
+    display: flex;
+}
+
+.remark{
+    color: #777;
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 10%;
+    padding-right: 7%;
+    text-align: left;
+}
+li:hover{
+    cursor: pointer;
+    color: #f7631b;
+}
+
+.colorib{
+    color: #f7631b;
+}
+.colorib:hover{
+    cursor: pointer;
+}
+.colorib:active{
+    color: white;
+}
+
+.footer-button:hover{
+    cursor: pointer;
+}
+.footer-button:active{
+    background-color: black;
+}
+
+@media only screen and (min-width: 800px){
+    .footer{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    }
+    .remark{
+        padding-left: 3%;
+    }
+    .main-footer{
+        padding: 100px 40px 100px 40px;
+    }
+    .footer-container-title{
+        padding-left: 10%;
+    }
+
+}

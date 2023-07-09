@@ -1,0 +1,42 @@
+.header-top{
+    display: flex;
+    background-color: black;
+    padding: 2px 33px 2px 13px;
+
+}
+.social-media-icons-div{
+    display: flex;
+    flex: 1fr;
+    justify-content: end;
+}
+.header-icons{
+    width: 20px;
+    cursor: pointer;
+}
+.header-contact{
+    color: white ;
+    font-size: 8px;
+    flex: 2; 
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.header-contact p{
+    margin: 0;
+    flex: 1;
+
+}
+@media only screen and (min-width: 800px){
+    .header-top{
+        display: flex;
+        background-color: black;
+        padding: 2px 33px 2px 33px;
+    
+    }
+    .header-icons{
+        width: 30px;
+    }
+    .header-contact{
+        font-size: 12px;
+    }
+}

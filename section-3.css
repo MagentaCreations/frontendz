@@ -1,0 +1,79 @@
+.section-3-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.section-3-note{
+    font-size: 14px;
+    color: rgb(119, 119, 119);
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section-3-advert-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.section-3-advert-component{
+    width: 140px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.section-3-advert-component-image img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    object-position: top;
+  
+}
+
+.section-3-advert-component-title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    transition: color 0.3s;
+}
+.section-3-advert-component-note{
+    font-size: 14px;
+    color: rgb(119, 119, 119);
+    text-align: left;
+    line-height: 20px;
+}
+
+.section-3-advert-component:hover{
+    cursor: pointer;
+    .section-3-advert-component-title{
+        color: #f7631b;
+    }
+}
+@media only screen and (min-width: 800px){
+    .section-3-advert-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .section-3-advert-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .advert-component{
+        background-color: rgba(255, 255, 255, 0.15);        
+    }
+    .section-3-advert-component-image img{
+        width: 250px;
+      
+    }
+    .section-3-advert-component{
+        width: 250px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .section-3-advert-component-note{
+        text-align: justify;
+    }
+}

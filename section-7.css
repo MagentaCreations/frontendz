@@ -1,0 +1,41 @@
+.section-7-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 50px 60px 20px 60px;
+
+}
+.section-7-component{
+    width: 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+.section-7 img{
+    width: 100%;
+}
+.section-7-date{
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+    line-height: 22px
+}
+.section-7-title{
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.section-7-component:hover{
+    cursor: pointer;
+    .section-7-title{
+        color:#f7631b;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .section-7-grid{
+        
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+
+}

@@ -1,0 +1,45 @@
+nav{
+    display: flex;
+    font-size: 10pt;
+    padding: 20px 33px 20px 33px;
+}
+.nav-menu-button{
+    display: block;
+}
+.nav-button{
+    display: none;
+}
+.nav-button, .nav-menu-button{
+    padding-left: 20px;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.logo-div{
+    display: flex;
+    align-items: center;
+}
+.nav-buttons-div{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: end; 
+    margin-right: 30px;
+}
+.nav-button:hover{
+    color: #f7631b;
+}
+ 
+nav img{
+    height: 30px;
+
+}
+@media only screen and (min-width: 800px){
+    .nav-menu-button{
+        display: none;
+    }
+    .nav-button{
+        display: block;
+    }
+
+}

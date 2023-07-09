@@ -1,0 +1,45 @@
+.section-6{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: rgba(4, 9, 30, 0.2);
+    padding: 100px 20px 100px 20px;
+}
+.section-6-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+    
+}
+.section-6-note{
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    line-height: 22px;
+
+}
+
+.section-6-button, .section-6-button1{
+    text-align: center;
+}
+.section-6-button1 button{
+    transition: color 0.15s, background-color 0.15s;
+}
+button{
+    border: none;
+    background-color: white;
+    padding: 15px 15px 15px 15px;
+}
+
+.section-6-button1 :hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (min-width: 1000px){
+    .section-6{
+        padding: 8% 20% 8% 20%;
+    }
+}

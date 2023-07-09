@@ -1,0 +1,105 @@
+.section-4{
+    background-color: rgba(4,9,30,0.8);
+    padding:80px 25px 0px 25px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;    
+}
+
+.section-4-top{
+    margin-bottom: 50px;
+}
+.section-4-discount, .section-4-middle-container-title, .section-4-end{
+    color: white;
+}
+
+.section-4-discount-body, .section-4-middle-container-body, select{
+    color: #777;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.section-4-discount{
+    font-size: 30px;
+    font-weight: bold;
+    width: 300px;
+
+}
+ .section-4-middle{
+    display: flex;
+    
+ }
+.section-4-middle-container{
+    width: 250px;
+    margin-right: 20px;
+}
+
+.section-4-middle-container-title, .section-4-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section-4-end{
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+}
+.section-4-end input{
+margin-left: 3px;
+width: 250px;
+height: 20px;
+margin-top: 5px;
+}
+
+select{
+    width: 272px;
+    height: 25px;
+    margin-top: 5px;
+    color: #777;
+    padding-left: 8px;
+    background-color: white;
+}
+.section-4-end button{
+    width: 272px;
+    height: 35px;
+    margin-top: 5px;
+    border: none;
+    color: white;
+    padding-top: 10px;
+    background-color:  #f7631b;
+    cursor: pointer;
+}
+.section-4-left{
+    margin-bottom: 20px;
+}
+.section-4-right{
+    background-color: rgba(6, 12, 34, 0.15);
+}
+
+@media only screen and (min-width: 1000px){
+    .section-4{
+    flex-direction: row;
+    }
+    .section-4-left{
+        margin-right: 20px;
+        padding-right: 180px;
+    }
+    .section-4-end input{
+        margin-left: 3px;
+        width: 457px;
+        height: 40px;
+        margin-top: 5px;
+        
+    }
+    .section-4-end{
+        padding: 100px 0px 100px 0px;
+        text-align: center;
+    }
+    select{
+        width: 479px;
+        height: 40px;
+    }
+    .section-4-end button{
+        width: 479px;
+    }
+ }
