@@ -26,7 +26,7 @@
     flex: 1;
 
 }
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 800px) and (orientation: landscape){
     .header-top{
         display: flex;
         background-color: black;
