@@ -76,7 +76,7 @@ select{
     background-color: rgba(6, 12, 34, 0.15);
 }
 
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 800px){
     .section-4{
     flex-direction: row;
     }
@@ -101,5 +101,30 @@ select{
     }
     .section-4-end button{
         width: 479px;
+    }
+ }
+
+
+ @media only screen and (max-width: 800px) and (orientation:landscape){
+    .section-4-end input{
+        margin-left: 3px;
+        width: 457px;
+        height: 40px;
+        margin-top: 5px;
+        
+    }
+    .section-4-end{
+        padding: 50px 0px 50px 0px;
+        text-align: center;
+    }
+    select{
+        width: 479px;
+        height: 40px;
+    }
+    .section-4-end button{
+        width: 479px;
+    }
+    .section-4-middle-container{
+        width: 350px;
     }
  }
