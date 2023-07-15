@@ -8,8 +8,6 @@
     width: 1fr;
     margin-left: 20px;
     margin-right: 20px;
-
-
 }
 .section-7 img{
     width: 100%;
@@ -32,10 +30,20 @@
     }
 }
 
-@media only screen and (min-width: 1000px){
-    .section-7-grid{
-        
+@media only screen and (min-width: 800px) and (orientation:landscape){
+    .section-7-grid{  
         grid-template-columns: 1fr 1fr 1fr; 
+    }
+
+}
+
+@media only screen and (max-width: 800px) and (orientation:landscape){
+    .section-7-grid{  
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+    .section-7-component{
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
 }
