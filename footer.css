@@ -98,3 +98,13 @@ li:hover{
     }
 
 }
+
+@media only screen and (max-width: 800px) and (orientation:landscape){
+    .footer-container-title{
+        padding-left: 10%;
+    }
+    .footer ul{
+        padding-left: 10%;
+    }
+}
+
