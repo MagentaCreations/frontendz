@@ -59,3 +59,18 @@
         
     }
 }
+
+@media only screen and (orientation:landscape) and (max-width: 800px){
+    .section-2{
+        flex-direction: row;
+        margin-top: -50px;
+    }
+    .section-2-title-object{
+        font-size: 16px;
+    }
+    .advert-component{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+}
